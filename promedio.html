@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promedio</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main>
+    <div class="tablero-promedio">
+      <div class="contenido-centrado">
+        <h1>Calcula el Promedio de tus calificaciones</h1>
+        <p id="texto-promedio" class="tablero-promedio__resultado">0</p>
+        <input id="valor_promedio" class="tablero-promedio__input" type="number">
+        <p class="descripcion">Ingresa 5 calificaciones y presiona Ver Promedio para ver el resultado</p>
+        <div class="tablero-promedio__buttons">
+          <div class="left-buttons">
+            <button id="ingresar" class="ingresar amarillo">Ingresar</button>
+            <button id="promedio" class="promedio verde">Ver Promedio</button>
+          </div>
+          <div class="right-buttons">
+            <button id="reset" class="reset amarillo">Reset</button>
+          </div>
+        </div>
+        <ul>
+          <li>Escribe una calificacion y presiona Ingresar para registrarla</li>
+          <li>Ver Promedio para ver el promedio final</li>
+          <li>Reset para comenzar de nuevo</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
